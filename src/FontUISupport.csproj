@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>bin\</BaseOutputPath>
+    <DebugType>embedded</DebugType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>rrebuffo.$(AssemblyName)</PackageId>
+    <Title>rrebuffo.FontUISupport</Title>
+    <Company>rrebuffo</Company>
+    <Description>Font support files for rrebuffo's UI environment for WPF desktop apps.</Description>
+    <Authors>Mauro Rebuffo</Authors>
+    <Product>rrebuffo.$(AssemblyName)</Product>
+    <RepositoryUrl>http://github.com/rrebuffo/FontUISupport</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Lekton-Regular.ttf" />
+    <Resource Include="Fonts\OpenSans-Bold.ttf" />
+    <Resource Include="Fonts\OpenSans-BoldItalic.ttf" />
+    <Resource Include="Fonts\OpenSans-ExtraBold.ttf" />
+    <Resource Include="Fonts\OpenSans-ExtraBoldItalic.ttf" />
+    <Resource Include="Fonts\OpenSans-Italic.ttf" />
+    <Resource Include="Fonts\OpenSans-Light.ttf" />
+    <Resource Include="Fonts\OpenSans-LightItalic.ttf" />
+    <Resource Include="Fonts\OpenSans-Regular.ttf" />
+    <Resource Include="Fonts\OpenSans-Semibold.ttf" />
+    <Resource Include="Fonts\OpenSans-SemiboldItalic.ttf" />
+  </ItemGroup>
+
+</Project>
